@@ -59,7 +59,7 @@ const questions = [
 // A function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-       return fs.writeFile(path.join(process.cwd(), "README.md"), generateMarkdown(data));
+       return fs.writeFileSync(path.join(process.cwd(), "README.md"), generateMarkdown(data));
     });
 }
 
