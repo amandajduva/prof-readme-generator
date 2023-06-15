@@ -5,8 +5,7 @@ Dynamically generates a professional README.md file from a user's input using th
 
 Please utilize the command line on your machine to use this generator. This generator utilizes node.js with the inquirer 8.2.4 package.  
 
-Recording of functionality:
-![Recording](https://watch.screencastify.com/v/u0mnmOLWLvla0EEdSFlN)
+[Recording of functionality](https://watch.screencastify.com/v/u0mnmOLWLvla0EEdSFlN)
 
 ## Credits
 
