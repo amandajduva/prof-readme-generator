@@ -51,7 +51,7 @@ function generateMarkdown(data) {
 
   To install the necessary dependencies for this project, please run the command: ${data.installation}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
