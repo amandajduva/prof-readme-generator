@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
-const generateMarkdownImport = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // An array of questions for user input
 const questions = [
@@ -58,8 +58,8 @@ const questions = [
 
 // A function to initialize app
 function init() {
-    inquirer.prompt(questions).then((inquirerResponse) => {
-       return fs.writeFile(path.join(process.cwd(), "README.md"), generateMarkdown(inquirerResponse));
+    inquirer.prompt(questions).then((data) => {
+       return fs.writeFile(path.join(process.cwd(), "README.md"), generateMarkdown(data));
     });
 }
 
