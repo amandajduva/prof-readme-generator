@@ -36,4 +36,4 @@
   ## Questions
 
   If there are any questions about this repository, you can contact me at:
-  amanda.j.duva@gmail.com or you can view my profile at [amandajduva](github.com/amandajduva).
+  amanda.j.duva@gmail.com or you can view my profile at github.com/amandajduva.

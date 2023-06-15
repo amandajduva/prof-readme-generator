@@ -68,7 +68,7 @@ function generateMarkdown(data) {
   ## Questions
 
   If there are any questions about this repository, you can contact me at:
-  ${data.email} or you can view my profile at [${data.github}](github.com/${data.github}).
+  ${data.email} or you can view my profile at github.com/${data.github}.
 `;
 }
 
