@@ -11,7 +11,7 @@ Please utilize the command line on your machine to use this generator. This gene
 
 ## Credits
 
-While I wrote the code for this application, I received support from an askBCS Learning Assitant with debugging my code from using fs.writeFile to fs.writeFileSync. I also received support from a tutor, where she explained the expected functionality of the generator and answered questions that I had. 
+I recieved starter code for this application from this [GitHub repository](https://github.com/coding-boot-camp/potential-enigma.git). I received support from an askBCS Learning Assitant with debugging my code from using fs.writeFile to fs.writeFileSync. I also received support from a tutor, where she explained the expected functionality of the generator and answered questions that I had. 
 
 ## License
 
